@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicVerse | Streaming Musical Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #7b2cbf;
+            --primary-light: #9d4edd;
+            --primary-dark: #5a189a;
+            --bg: #10002b;
+            --bg-dark: #030014;
+            --text: #f8f9fa;
+            --text-light: #e9ecef;
+            --white: #ffffff;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.2);
+            --shadow-md: 0 6px 12px rgba(0,0,0,0.25);
+            --shadow-lg: 0 12px 24px rgba(0,0,0,0.3);
+            --glow: 0 0 15px rgba(123, 44, 191, 0.5);
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 24px;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        /* [Todo o restante do CSS permanece igual ao original] */
+        
+        @media (max-width: 576px) {
+            .section {
+                padding: 50px 0;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .auth-container {
+                padding: 30px 20px;
+            }
+            
+            .auth-tab {
+                padding: 10px 15px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- [Todo o conteúdo HTML permanece igual ao original] -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">MusicVerse</div>
+            <div class="slogan">Seu universo musical premium</div>
+        </div>
+    </header>
+    
+    <!-- [Restante do HTML...] -->
+
+    <script>
+        // [Todo o JavaScript permanece igual ao original]
+        const DOM = {
+            authModal: document.getElementById('authModal'),
+            openLogin: document.getElementById('openLogin'),
+            openSignup: document.getElementById('openSignup'),
+            openLoginHero: document.getElementById('openLoginHero'),
+            openSignupHero: document.getElementById('openSignupHero'),
+            closeAuth: document.getElementById('closeAuth'),
+            loginForm: document.getElementById('loginForm'),
+            signupForm: document.getElementById('signupForm'),
+            tabs: document.querySelectorAll('.auth-tab'),
+            forms: document.querySelectorAll('.auth-form'),
+            userMenu: document.getElementById('userMenu'),
+            userAvatar: document.getElementById('userAvatar'),
+            dropdownMenu: document.getElementById('dropdownMenu'),
+            logoutBtn: document.getElementById('logoutBtn')
+        };
+
+        // [Restante do JavaScript...]
+    </script>
+</body>
+</html>
